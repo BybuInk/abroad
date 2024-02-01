@@ -12,183 +12,11 @@
       Abroad Solutions - Immigration | Visa Consulting
     </title>
     <meta name="robots" content="max-image-preview:large" />
-    <link
-      rel="alternate"
-      type="application/rss+xml"
-      title="Imma &raquo; Feed"
-      href="#/feed/"
-    />
-    <link
-      rel="alternate"
-      type="application/rss+xml"
-      title="Imma &raquo; Comments Feed"
-      href="#/comments/feed/"
-    />
-    <script>
-      window._wpemojiSettings = {
-        baseUrl: "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
-        ext: ".png",
-        svgUrl: "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
-        svgExt: ".svg",
-        source: {
-          concatemoji:
-            "https:\/\/imma.peerduck.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.4.2",
-        },
-      };
-      /*! This file is auto-generated */
-      !(function (i, n) {
-        var o, s, e;
-        function c(e) {
-          try {
-            var t = { supportTests: e, timestamp: new Date().valueOf() };
-            sessionStorage.setItem(o, JSON.stringify(t));
-          } catch (e) {}
-        }
-        function p(e, t, n) {
-          e.clearRect(0, 0, e.canvas.width, e.canvas.height),
-            e.fillText(t, 0, 0);
-          var t = new Uint32Array(
-              e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
-            ),
-            r =
-              (e.clearRect(0, 0, e.canvas.width, e.canvas.height),
-              e.fillText(n, 0, 0),
-              new Uint32Array(
-                e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
-              ));
-          return t.every(function (e, t) {
-            return e === r[t];
-          });
-        }
-        function u(e, t, n) {
-          switch (t) {
-            case "flag":
-              return n(
-                e,
-                "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f",
-                "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f"
-              )
-                ? !1
-                : !n(
-                    e,
-                    "\ud83c\uddfa\ud83c\uddf3",
-                    "\ud83c\uddfa\u200b\ud83c\uddf3"
-                  ) &&
-                    !n(
-                      e,
-                      "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
-                      "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"
-                    );
-            case "emoji":
-              return !n(
-                e,
-                "\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff",
-                "\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff"
-              );
-          }
-          return !1;
-        }
-        function f(e, t, n) {
-          var r =
-              "undefined" != typeof WorkerGlobalScope &&
-              self instanceof WorkerGlobalScope
-                ? new OffscreenCanvas(300, 150)
-                : i.createElement("canvas"),
-            a = r.getContext("2d", { willReadFrequently: !0 }),
-            o = ((a.textBaseline = "top"), (a.font = "600 32px Arial"), {});
-          return (
-            e.forEach(function (e) {
-              o[e] = t(a, e, n);
-            }),
-            o
-          );
-        }
-        function t(e) {
-          var t = i.createElement("script");
-          (t.src = e), (t.defer = !0), i.head.appendChild(t);
-        }
-        "undefined" != typeof Promise &&
-          ((o = "wpEmojiSettingsSupports"),
-          (s = ["flag", "emoji"]),
-          (n.supports = { everything: !0, everythingExceptFlag: !0 }),
-          (e = new Promise(function (e) {
-            i.addEventListener("DOMContentLoaded", e, { once: !0 });
-          })),
-          new Promise(function (t) {
-            var n = (function () {
-              try {
-                var e = JSON.parse(sessionStorage.getItem(o));
-                if (
-                  "object" == typeof e &&
-                  "number" == typeof e.timestamp &&
-                  new Date().valueOf() < e.timestamp + 604800 &&
-                  "object" == typeof e.supportTests
-                )
-                  return e.supportTests;
-              } catch (e) {}
-              return null;
-            })();
-            if (!n) {
-              if (
-                "undefined" != typeof Worker &&
-                "undefined" != typeof OffscreenCanvas &&
-                "undefined" != typeof URL &&
-                URL.createObjectURL &&
-                "undefined" != typeof Blob
-              )
-                try {
-                  var e =
-                      "postMessage(" +
-                      f.toString() +
-                      "(" +
-                      [JSON.stringify(s), u.toString(), p.toString()].join(
-                        ","
-                      ) +
-                      "));",
-                    r = new Blob([e], { type: "text/javascript" }),
-                    a = new Worker(URL.createObjectURL(r), {
-                      name: "wpTestEmojiSupports",
-                    });
-                  return void (a.onmessage = function (e) {
-                    c((n = e.data)), a.terminate(), t(n);
-                  });
-                } catch (e) {}
-              c((n = f(s, u, p)));
-            }
-            t(n);
-          })
-            .then(function (e) {
-              for (var t in e)
-                (n.supports[t] = e[t]),
-                  (n.supports.everything =
-                    n.supports.everything && n.supports[t]),
-                  "flag" !== t &&
-                    (n.supports.everythingExceptFlag =
-                      n.supports.everythingExceptFlag && n.supports[t]);
-              (n.supports.everythingExceptFlag =
-                n.supports.everythingExceptFlag && !n.supports.flag),
-                (n.DOMReady = !1),
-                (n.readyCallback = function () {
-                  n.DOMReady = !0;
-                });
-            })
-            .then(function () {
-              return e;
-            })
-            .then(function () {
-              var e;
-              n.supports.everything ||
-                (n.readyCallback(),
-                (e = n.source || {}).concatemoji
-                  ? t(e.concatemoji)
-                  : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji)));
-            }));
-      })((window, document), window._wpemojiSettings);
-    </script>
+    
     <link
       rel="stylesheet"
       id="pa-frontend-css"
-      href="#/wp-content/uploads/premium-addons-elementor/pa-frontend-a375f3c49.min.css?ver=1706614329"
+      href="./pa-frontend-a375f3c49.min.css"
       media="all"
     />
     <style id="wp-emoji-styles-inline-css">
@@ -208,19 +36,19 @@
     <link
       rel="stylesheet"
       id="contact-form-7-css"
-      href="#/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.8.5"
+      href="https://imma.peerduck.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.8.5"
       media="all"
     />
     <link
       rel="stylesheet"
       id="bootstrap-css"
-      href="#/wp-content/themes/imma/assets/css/bootstrap.css?ver=1.00"
+      href="https://imma.peerduck.com/wp-content/themes/imma/assets/css/bootstrap.css?ver=1.00"
       media="all"
     />
     <link
       rel="stylesheet"
       id="imma-css"
-      href="#/wp-content/themes/imma/style.css?ver=1.00"
+      href="https://imma.peerduck.com/wp-content/themes/imma/style.css?ver=1.00"
       media="all"
     />
     <style id="imma-inline-css">
@@ -261,13 +89,13 @@
     <link
       rel="stylesheet"
       id="elementor-icons-css"
-      href="#/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.25.0"
+      href="https://imma.peerduck.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.25.0"
       media="all"
     />
     <link
       rel="stylesheet"
       id="elementor-frontend-css"
-      href="#/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.18.3"
+      href="https://imma.peerduck.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.18.3"
       media="all"
     />
     <style id="elementor-frontend-inline-css">
@@ -2807,7 +2635,7 @@
         .elementor-element.elementor-element-8e21133
         > .elementor-motion-effects-container
         > .elementor-motion-effects-layer {
-        background: url("#/wp-content/uploads/2023/06/4u2thg4.png")
+        background: url("https://imma.peerduck.com/wp-content/uploads/2023/06/4u2thg4.png")
           50% 50%;
         background-size: cover;
       }
@@ -3618,7 +3446,7 @@
         > .elementor-widget-wrap
         > .elementor-motion-effects-container
         > .elementor-motion-effects-layer {
-        background-image: url("#/wp-content/uploads/2023/06/o3j5yoh.png");
+        background-image: url("https://imma.peerduck.com/wp-content/uploads/2023/06/o3j5yoh.png");
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -3846,7 +3674,7 @@
         .elementor-element.elementor-element-d5e26f3
         > .elementor-motion-effects-container
         > .elementor-motion-effects-layer {
-        background-image: url("#/wp-content/uploads/2023/06/ervrbt.png");
+        background-image: url("https://imma.peerduck.com/wp-content/uploads/2023/06/ervrbt.png");
         background-position: bottom left;
         background-repeat: no-repeat;
         background-size: 20% auto;
@@ -3879,7 +3707,7 @@
         > .elementor-widget-wrap
         > .elementor-motion-effects-container
         > .elementor-motion-effects-layer {
-        background-image: url("#/wp-content/uploads/2023/06/i4thg.png");
+        background-image: url("https://imma.peerduck.com/wp-content/uploads/2023/06/i4thg.png");
         background-position: 100% 134px;
         background-repeat: no-repeat;
         background-size: 283px auto;
@@ -4361,7 +4189,7 @@
         > .elementor-motion-effects-container
         > .elementor-motion-effects-layer {
         background-color: #ffffff;
-        background-image: url("#/wp-content/uploads/2023/06/3jrn3r.png");
+        background-image: url("https://imma.peerduck.com/wp-content/uploads/2023/06/3jrn3r.png");
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -5299,7 +5127,7 @@
         > .elementor-motion-effects-container
         > .elementor-motion-effects-layer {
         background-color: #f6f5f8;
-        background-image: url("#/wp-content/uploads/2023/06/4kigmt.png");
+        background-image: url("https://imma.peerduck.com/wp-content/uploads/2023/06/4kigmt.png");
         background-position: 96% 0px;
         background-repeat: no-repeat;
         background-size: 20% auto;
@@ -5357,7 +5185,7 @@
         > .elementor-widget-wrap
         > .elementor-motion-effects-container
         > .elementor-motion-effects-layer {
-        background-image: url("#/wp-content/uploads/2023/06/o3j5yoh.png");
+        background-image: url("https://imma.peerduck.com/wp-content/uploads/2023/06/o3j5yoh.png");
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -5513,7 +5341,7 @@
         > .elementor-motion-effects-container
         > .elementor-motion-effects-layer {
         background-color: #112048;
-        background: url("#/wp-content/uploads/2023/06/i4uhtg.png")
+        background: url("https://imma.peerduck.com/wp-content/uploads/2023/06/i4uhtg.png")
           50% 50%;
         background-size: cover;
       }
@@ -7262,13 +7090,13 @@
     <link
       rel="stylesheet"
       id="swiper-css"
-      href="#/wp-content/plugins/elementor/assets/lib/swiper/css/swiper.min.css?ver=5.3.6"
+      href="https://imma.peerduck.com/wp-content/plugins/elementor/assets/lib/swiper/css/swiper.min.css?ver=5.3.6"
       media="all"
     />
     <link
       rel="stylesheet"
       id="eael-general-css"
-      href="#/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/general.min.css?ver=5.9.3"
+      href="https://imma.peerduck.com/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/general.min.css?ver=5.9.3"
       media="all"
     />
     <link
@@ -7279,15 +7107,15 @@
     />
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
     <script
-      src="#/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+      src="https://imma.peerduck.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
       id="jquery-core-js"
     ></script>
     <script
-      src="#/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+      src="https://imma.peerduck.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
       id="jquery-migrate-js"
     ></script>
     <script
-      src="#/wp-content/themes/imma/assets/js/bootstrap.bundle.min.js?ver=1.00"
+      src="https://imma.peerduck.com/wp-content/themes/imma/assets/js/bootstrap.bundle.min.js?ver=1.00"
       id="bootstrap-js"
     ></script>
     <script id="imma-js-before">
@@ -7301,26 +7129,26 @@
       }
     </script>
     <script
-      src="#/wp-content/themes/imma/assets/js/index.js?ver=1.00"
+      src="https://imma.peerduck.com/wp-content/themes/imma/assets/js/index.js?ver=1.00"
       id="imma-js"
     ></script>
     <link
       rel="EditURI"
       type="application/rsd+xml"
       title="RSD"
-      href="#/xmlrpc.php?rsd"
+      href="https://imma.peerduck.com/xmlrpc.php?rsd"
     />
-    <link rel="canonical" href="#/" />
-    <link rel="shortlink" href="#/" />
+    <link rel="canonical" href="https://imma.peerduck.com/" />
+    <link rel="shortlink" href="https://imma.peerduck.com/" />
     <link
       rel="alternate"
       type="application/json+oembed"
-      href="#/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fimma.peerduck.com%2F"
+      href="https://imma.peerduck.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fimma.peerduck.com%2F"
     />
     <link
       rel="alternate"
       type="text/xml+oembed"
-      href="#/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fimma.peerduck.com%2F&#038;format=xml"
+      href="https://imma.peerduck.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fimma.peerduck.com%2F&#038;format=xml"
     />
     <meta
       name="generator"
@@ -7328,21 +7156,21 @@
     />
     <link
       rel="icon"
-      href="#/wp-content/uploads/2023/07/cropped-fav-32x32.png"
+      href="https://imma.peerduck.com/wp-content/uploads/2023/07/cropped-fav-32x32.png"
       sizes="32x32"
     />
     <link
       rel="icon"
-      href="#/wp-content/uploads/2023/07/cropped-fav-192x192.png"
+      href="https://imma.peerduck.com/wp-content/uploads/2023/07/cropped-fav-192x192.png"
       sizes="192x192"
     />
     <link
       rel="apple-touch-icon"
-      href="#/wp-content/uploads/2023/07/cropped-fav-180x180.png"
+      href="https://imma.peerduck.com/wp-content/uploads/2023/07/cropped-fav-180x180.png"
     />
     <meta
       name="msapplication-TileImage"
-      content="#/wp-content/uploads/2023/07/cropped-fav-270x270.png"
+      content="https://imma.peerduck.com/wp-content/uploads/2023/07/cropped-fav-270x270.png"
     />
   </head>
   <body
@@ -7356,11 +7184,11 @@
         <div class="top-wrap">
           <a
             class="custom-logo-link"
-            href="#"
+            href="https://imma.peerduck.com"
             ><img
               width="334"
               height="100"
-              src="https://github.com/BybuInk/abroad/blob/main/logo.png"
+              src="logo.png"
               alt="Imma"
               class="custom-logo style-svg"
               decoding="async"
@@ -7412,7 +7240,7 @@
                 >
                   <a
                     itemprop="url"
-                    href="#/breaking-barriers/"
+                    href="https://imma.peerduck.com/breaking-barriers/"
                     class="dropdown-item"
                     ><span itemprop="name">Breaking Barriers</span></a
                   >
@@ -7423,7 +7251,7 @@
                 >
                   <a
                     itemprop="url"
-                    href="#/empowering-global-aspirations/"
+                    href="https://imma.peerduck.com/empowering-global-aspirations/"
                     class="dropdown-item"
                     ><span itemprop="name"
                       >Empowering Global Aspirations</span
@@ -7436,7 +7264,7 @@
                 >
                   <a
                     itemprop="url"
-                    href="#/"
+                    href="https://imma.peerduck.com/"
                     class="dropdown-item"
                     aria-current="page"
                     ><span itemprop="name">Your Dream Destination</span></a
@@ -7448,7 +7276,7 @@
                 >
                   <a
                     itemprop="url"
-                    href="#/simplify-your-journey/"
+                    href="https://imma.peerduck.com/simplify-your-journey/"
                     class="dropdown-item"
                     ><span itemprop="name">Simplify Your Journey</span></a
                   >
@@ -7461,7 +7289,7 @@
             >
               <a
                 itemprop="url"
-                href="#/about-us/"
+                href="https://imma.peerduck.com/about-us/"
                 class="nav-link"
                 ><span itemprop="name">About Us</span></a
               >
@@ -7472,7 +7300,7 @@
             >
               <a
                 itemprop="url"
-                href="#/our-services/"
+                href="https://imma.peerduck.com/our-services/"
                 class="nav-link"
                 ><span itemprop="name">Our Services</span></a
               >
@@ -7483,7 +7311,7 @@
             >
               <a
                 itemprop="url"
-                href="#/our-team/"
+                href="https://imma.peerduck.com/our-team/"
                 class="nav-link"
                 ><span itemprop="name">Our Team</span></a
               >
@@ -7510,7 +7338,7 @@
                 >
                   <a
                     itemprop="url"
-                    href="#/blog-1-column/"
+                    href="https://imma.peerduck.com/blog-1-column/"
                     class="dropdown-item"
                     ><span itemprop="name">Blog Classic</span></a
                   >
@@ -7521,7 +7349,7 @@
                 >
                   <a
                     itemprop="url"
-                    href="#/blog-1-column-with-sidebar/"
+                    href="https://imma.peerduck.com/blog-1-column-with-sidebar/"
                     class="dropdown-item"
                     ><span itemprop="name">Blog with Sidebar</span></a
                   >
@@ -7534,7 +7362,7 @@
             >
               <a
                 itemprop="url"
-                href="#/contact-us/"
+                href="https://imma.peerduck.com/contact-us/"
                 class="nav-link"
                 ><span itemprop="name">Contact Us</span></a
               >
@@ -7806,13 +7634,13 @@
                                               decoding="async"
                                               width="256"
                                               height="256"
-                                              src="#/wp-content/uploads/2023/06/7mi7i.png"
+                                              src="https://imma.peerduck.com/wp-content/uploads/2023/06/7mi7i.png"
                                               class="elementor-animation-shrink attachment-large size-large wp-image-28761"
                                               alt=""
                                               srcset="
-                                                #/wp-content/uploads/2023/06/7mi7i.png         256w,
-                                                #/wp-content/uploads/2023/06/7mi7i-150x150.png 150w,
-                                                #/wp-content/uploads/2023/06/7mi7i-100x100.png 100w
+                                                https://imma.peerduck.com/wp-content/uploads/2023/06/7mi7i.png         256w,
+                                                https://imma.peerduck.com/wp-content/uploads/2023/06/7mi7i-150x150.png 150w,
+                                                https://imma.peerduck.com/wp-content/uploads/2023/06/7mi7i-100x100.png 100w
                                               "
                                               sizes="(max-width: 256px) 100vw, 256px"
                                             />
@@ -7877,13 +7705,13 @@
                                               decoding="async"
                                               width="256"
                                               height="256"
-                                              src="#/wp-content/uploads/2023/06/7mi7i.png"
+                                              src="https://imma.peerduck.com/wp-content/uploads/2023/06/7mi7i.png"
                                               class="elementor-animation-shrink attachment-large size-large wp-image-28761"
                                               alt=""
                                               srcset="
-                                                #/wp-content/uploads/2023/06/7mi7i.png         256w,
-                                                #/wp-content/uploads/2023/06/7mi7i-150x150.png 150w,
-                                                #/wp-content/uploads/2023/06/7mi7i-100x100.png 100w
+                                                https://imma.peerduck.com/wp-content/uploads/2023/06/7mi7i.png         256w,
+                                                https://imma.peerduck.com/wp-content/uploads/2023/06/7mi7i-150x150.png 150w,
+                                                https://imma.peerduck.com/wp-content/uploads/2023/06/7mi7i-100x100.png 100w
                                               "
                                               sizes="(max-width: 256px) 100vw, 256px"
                                             />
@@ -7948,13 +7776,13 @@
                                               decoding="async"
                                               width="256"
                                               height="256"
-                                              src="#/wp-content/uploads/2023/06/7mi7i.png"
+                                              src="https://imma.peerduck.com/wp-content/uploads/2023/06/7mi7i.png"
                                               class="elementor-animation-shrink attachment-large size-large wp-image-28761"
                                               alt=""
                                               srcset="
-                                                #/wp-content/uploads/2023/06/7mi7i.png         256w,
-                                                #/wp-content/uploads/2023/06/7mi7i-150x150.png 150w,
-                                                #/wp-content/uploads/2023/06/7mi7i-100x100.png 100w
+                                                https://imma.peerduck.com/wp-content/uploads/2023/06/7mi7i.png         256w,
+                                                https://imma.peerduck.com/wp-content/uploads/2023/06/7mi7i-150x150.png 150w,
+                                                https://imma.peerduck.com/wp-content/uploads/2023/06/7mi7i-100x100.png 100w
                                               "
                                               sizes="(max-width: 256px) 100vw, 256px"
                                             />
@@ -8350,13 +8178,13 @@
                                                 decoding="async"
                                                 width="256"
                                                 height="256"
-                                                src="#/wp-content/uploads/2023/06/handshake.png"
+                                                src="https://imma.peerduck.com/wp-content/uploads/2023/06/handshake.png"
                                                 class="attachment-full size-full wp-image-28810"
                                                 alt=""
                                                 srcset="
-                                                  #/wp-content/uploads/2023/06/handshake.png         256w,
-                                                  #/wp-content/uploads/2023/06/handshake-150x150.png 150w,
-                                                  #/wp-content/uploads/2023/06/handshake-100x100.png 100w
+                                                  https://imma.peerduck.com/wp-content/uploads/2023/06/handshake.png         256w,
+                                                  https://imma.peerduck.com/wp-content/uploads/2023/06/handshake-150x150.png 150w,
+                                                  https://imma.peerduck.com/wp-content/uploads/2023/06/handshake-100x100.png 100w
                                                 "
                                                 sizes="(max-width: 256px) 100vw, 256px"
                                               />
@@ -8401,13 +8229,13 @@
                                                 decoding="async"
                                                 width="256"
                                                 height="256"
-                                                src="#/wp-content/uploads/2023/06/favorite.png"
+                                                src="https://imma.peerduck.com/wp-content/uploads/2023/06/favorite.png"
                                                 class="attachment-full size-full wp-image-28811"
                                                 alt=""
                                                 srcset="
-                                                  #/wp-content/uploads/2023/06/favorite.png         256w,
-                                                  #/wp-content/uploads/2023/06/favorite-150x150.png 150w,
-                                                  #/wp-content/uploads/2023/06/favorite-100x100.png 100w
+                                                  https://imma.peerduck.com/wp-content/uploads/2023/06/favorite.png         256w,
+                                                  https://imma.peerduck.com/wp-content/uploads/2023/06/favorite-150x150.png 150w,
+                                                  https://imma.peerduck.com/wp-content/uploads/2023/06/favorite-100x100.png 100w
                                                 "
                                                 sizes="(max-width: 256px) 100vw, 256px"
                                               />
@@ -8451,15 +8279,15 @@
                                     decoding="async"
                                     width="927"
                                     height="1024"
-                                    src="#/wp-content/uploads/2023/06/3j5nyh-927x1024.png"
+                                    src="https://imma.peerduck.com/wp-content/uploads/2023/06/3j5nyh-927x1024.png"
                                     class="attachment-large size-large wp-image-28823"
                                     alt=""
                                     srcset="
-                                      #/wp-content/uploads/2023/06/3j5nyh-927x1024.png  927w,
-                                      #/wp-content/uploads/2023/06/3j5nyh-271x300.png   271w,
-                                      #/wp-content/uploads/2023/06/3j5nyh-768x849.png   768w,
-                                      #/wp-content/uploads/2023/06/3j5nyh-600x663.png   600w,
-                                      #/wp-content/uploads/2023/06/3j5nyh.png          1000w
+                                      https://imma.peerduck.com/wp-content/uploads/2023/06/3j5nyh-927x1024.png  927w,
+                                      https://imma.peerduck.com/wp-content/uploads/2023/06/3j5nyh-271x300.png   271w,
+                                      https://imma.peerduck.com/wp-content/uploads/2023/06/3j5nyh-768x849.png   768w,
+                                      https://imma.peerduck.com/wp-content/uploads/2023/06/3j5nyh-600x663.png   600w,
+                                      https://imma.peerduck.com/wp-content/uploads/2023/06/3j5nyh.png          1000w
                                     "
                                     sizes="(max-width: 927px) 100vw, 927px"
                                   />
@@ -8687,15 +8515,15 @@
                                       decoding="async"
                                       width="920"
                                       height="1310"
-                                      src="#/wp-content/uploads/2023/06/kj24ng.png"
+                                      src="https://imma.peerduck.com/wp-content/uploads/2023/06/kj24ng.png"
                                       class="attachment-full size-full wp-image-28851"
                                       alt=""
                                       srcset="
-                                        #/wp-content/uploads/2023/06/kj24ng.png          920w,
-                                        #/wp-content/uploads/2023/06/kj24ng-211x300.png  211w,
-                                        #/wp-content/uploads/2023/06/kj24ng-719x1024.png 719w,
-                                        #/wp-content/uploads/2023/06/kj24ng-768x1094.png 768w,
-                                        #/wp-content/uploads/2023/06/kj24ng-600x854.png  600w
+                                        https://imma.peerduck.com/wp-content/uploads/2023/06/kj24ng.png          920w,
+                                        https://imma.peerduck.com/wp-content/uploads/2023/06/kj24ng-211x300.png  211w,
+                                        https://imma.peerduck.com/wp-content/uploads/2023/06/kj24ng-719x1024.png 719w,
+                                        https://imma.peerduck.com/wp-content/uploads/2023/06/kj24ng-768x1094.png 768w,
+                                        https://imma.peerduck.com/wp-content/uploads/2023/06/kj24ng-600x854.png  600w
                                       "
                                       sizes="(max-width: 920px) 100vw, 920px"
                                     />
@@ -8742,15 +8570,15 @@
                                       decoding="async"
                                       width="920"
                                       height="1310"
-                                      src="#/wp-content/uploads/2023/06/kj3nrg3.png"
+                                      src="https://imma.peerduck.com/wp-content/uploads/2023/06/kj3nrg3.png"
                                       class="attachment-full size-full wp-image-28853"
                                       alt=""
                                       srcset="
-                                        #/wp-content/uploads/2023/06/kj3nrg3.png          920w,
-                                        #/wp-content/uploads/2023/06/kj3nrg3-211x300.png  211w,
-                                        #/wp-content/uploads/2023/06/kj3nrg3-719x1024.png 719w,
-                                        #/wp-content/uploads/2023/06/kj3nrg3-768x1094.png 768w,
-                                        #/wp-content/uploads/2023/06/kj3nrg3-600x854.png  600w
+                                        https://imma.peerduck.com/wp-content/uploads/2023/06/kj3nrg3.png          920w,
+                                        https://imma.peerduck.com/wp-content/uploads/2023/06/kj3nrg3-211x300.png  211w,
+                                        https://imma.peerduck.com/wp-content/uploads/2023/06/kj3nrg3-719x1024.png 719w,
+                                        https://imma.peerduck.com/wp-content/uploads/2023/06/kj3nrg3-768x1094.png 768w,
+                                        https://imma.peerduck.com/wp-content/uploads/2023/06/kj3nrg3-600x854.png  600w
                                       "
                                       sizes="(max-width: 920px) 100vw, 920px"
                                     />
@@ -8797,15 +8625,15 @@
                                       decoding="async"
                                       width="920"
                                       height="1310"
-                                      src="#/wp-content/uploads/2023/06/o4ntg.png"
+                                      src="https://imma.peerduck.com/wp-content/uploads/2023/06/o4ntg.png"
                                       class="attachment-full size-full wp-image-28854"
                                       alt=""
                                       srcset="
-                                        #/wp-content/uploads/2023/06/o4ntg.png          920w,
-                                        #/wp-content/uploads/2023/06/o4ntg-211x300.png  211w,
-                                        #/wp-content/uploads/2023/06/o4ntg-719x1024.png 719w,
-                                        #/wp-content/uploads/2023/06/o4ntg-768x1094.png 768w,
-                                        #/wp-content/uploads/2023/06/o4ntg-600x854.png  600w
+                                        https://imma.peerduck.com/wp-content/uploads/2023/06/o4ntg.png          920w,
+                                        https://imma.peerduck.com/wp-content/uploads/2023/06/o4ntg-211x300.png  211w,
+                                        https://imma.peerduck.com/wp-content/uploads/2023/06/o4ntg-719x1024.png 719w,
+                                        https://imma.peerduck.com/wp-content/uploads/2023/06/o4ntg-768x1094.png 768w,
+                                        https://imma.peerduck.com/wp-content/uploads/2023/06/o4ntg-600x854.png  600w
                                       "
                                       sizes="(max-width: 920px) 100vw, 920px"
                                     />
@@ -8852,15 +8680,15 @@
                                       decoding="async"
                                       width="920"
                                       height="1310"
-                                      src="#/wp-content/uploads/2023/06/o4itg.png"
+                                      src="https://imma.peerduck.com/wp-content/uploads/2023/06/o4itg.png"
                                       class="attachment-full size-full wp-image-28855"
                                       alt=""
                                       srcset="
-                                        #/wp-content/uploads/2023/06/o4itg.png          920w,
-                                        #/wp-content/uploads/2023/06/o4itg-211x300.png  211w,
-                                        #/wp-content/uploads/2023/06/o4itg-719x1024.png 719w,
-                                        #/wp-content/uploads/2023/06/o4itg-768x1094.png 768w,
-                                        #/wp-content/uploads/2023/06/o4itg-600x854.png  600w
+                                        https://imma.peerduck.com/wp-content/uploads/2023/06/o4itg.png          920w,
+                                        https://imma.peerduck.com/wp-content/uploads/2023/06/o4itg-211x300.png  211w,
+                                        https://imma.peerduck.com/wp-content/uploads/2023/06/o4itg-719x1024.png 719w,
+                                        https://imma.peerduck.com/wp-content/uploads/2023/06/o4itg-768x1094.png 768w,
+                                        https://imma.peerduck.com/wp-content/uploads/2023/06/o4itg-600x854.png  600w
                                       "
                                       sizes="(max-width: 920px) 100vw, 920px"
                                     />
@@ -9027,12 +8855,12 @@
                                     decoding="async"
                                     width="586"
                                     height="132"
-                                    src="#/wp-content/uploads/2023/06/r3gv3.png"
+                                    src="https://imma.peerduck.com/wp-content/uploads/2023/06/r3gv3.png"
                                     class="attachment-large size-large wp-image-28917"
                                     alt=""
                                     srcset="
-                                      #/wp-content/uploads/2023/06/r3gv3.png        586w,
-                                      #/wp-content/uploads/2023/06/r3gv3-300x68.png 300w
+                                      https://imma.peerduck.com/wp-content/uploads/2023/06/r3gv3.png        586w,
+                                      https://imma.peerduck.com/wp-content/uploads/2023/06/r3gv3-300x68.png 300w
                                     "
                                     sizes="(max-width: 586px) 100vw, 586px"
                                   />
@@ -9051,13 +8879,13 @@
                                         decoding="async"
                                         width="256"
                                         height="256"
-                                        src="#/wp-content/uploads/2023/06/handshake.png"
+                                        src="https://imma.peerduck.com/wp-content/uploads/2023/06/handshake.png"
                                         class="attachment-full size-full wp-image-28810"
                                         alt=""
                                         srcset="
-                                          #/wp-content/uploads/2023/06/handshake.png         256w,
-                                          #/wp-content/uploads/2023/06/handshake-150x150.png 150w,
-                                          #/wp-content/uploads/2023/06/handshake-100x100.png 100w
+                                          https://imma.peerduck.com/wp-content/uploads/2023/06/handshake.png         256w,
+                                          https://imma.peerduck.com/wp-content/uploads/2023/06/handshake-150x150.png 150w,
+                                          https://imma.peerduck.com/wp-content/uploads/2023/06/handshake-100x100.png 100w
                                         "
                                         sizes="(max-width: 256px) 100vw, 256px"
                                       />
@@ -9100,13 +8928,13 @@
                                         decoding="async"
                                         width="256"
                                         height="256"
-                                        src="#/wp-content/uploads/2023/06/handshake.png"
+                                        src="https://imma.peerduck.com/wp-content/uploads/2023/06/handshake.png"
                                         class="attachment-full size-full wp-image-28810"
                                         alt=""
                                         srcset="
-                                          #/wp-content/uploads/2023/06/handshake.png         256w,
-                                          #/wp-content/uploads/2023/06/handshake-150x150.png 150w,
-                                          #/wp-content/uploads/2023/06/handshake-100x100.png 100w
+                                          https://imma.peerduck.com/wp-content/uploads/2023/06/handshake.png         256w,
+                                          https://imma.peerduck.com/wp-content/uploads/2023/06/handshake-150x150.png 150w,
+                                          https://imma.peerduck.com/wp-content/uploads/2023/06/handshake-100x100.png 100w
                                         "
                                         sizes="(max-width: 256px) 100vw, 256px"
                                       />
@@ -9139,12 +8967,12 @@
                                     decoding="async"
                                     width="586"
                                     height="132"
-                                    src="#/wp-content/uploads/2023/06/r3gv3.png"
+                                    src="https://imma.peerduck.com/wp-content/uploads/2023/06/r3gv3.png"
                                     class="attachment-large size-large wp-image-28917"
                                     alt=""
                                     srcset="
-                                      #/wp-content/uploads/2023/06/r3gv3.png        586w,
-                                      #/wp-content/uploads/2023/06/r3gv3-300x68.png 300w
+                                      https://imma.peerduck.com/wp-content/uploads/2023/06/r3gv3.png        586w,
+                                      https://imma.peerduck.com/wp-content/uploads/2023/06/r3gv3-300x68.png 300w
                                     "
                                     sizes="(max-width: 586px) 100vw, 586px"
                                   />
@@ -9173,13 +9001,13 @@
                                         decoding="async"
                                         width="256"
                                         height="256"
-                                        src="#/wp-content/uploads/2023/06/handshake.png"
+                                        src="https://imma.peerduck.com/wp-content/uploads/2023/06/handshake.png"
                                         class="attachment-full size-full wp-image-28810"
                                         alt=""
                                         srcset="
-                                          #/wp-content/uploads/2023/06/handshake.png         256w,
-                                          #/wp-content/uploads/2023/06/handshake-150x150.png 150w,
-                                          #/wp-content/uploads/2023/06/handshake-100x100.png 100w
+                                          https://imma.peerduck.com/wp-content/uploads/2023/06/handshake.png         256w,
+                                          https://imma.peerduck.com/wp-content/uploads/2023/06/handshake-150x150.png 150w,
+                                          https://imma.peerduck.com/wp-content/uploads/2023/06/handshake-100x100.png 100w
                                         "
                                         sizes="(max-width: 256px) 100vw, 256px"
                                       />
@@ -9279,7 +9107,7 @@
                                           <img
                                             decoding="async"
                                             class="swiper-slide-image"
-                                            src="#/wp-content/uploads/2023/06/4tg4ve.png"
+                                            src="https://imma.peerduck.com/wp-content/uploads/2023/06/4tg4ve.png"
                                             alt="4tg4ve"
                                           />
                                         </figure>
@@ -9294,7 +9122,7 @@
                                           <img
                                             decoding="async"
                                             class="swiper-slide-image"
-                                            src="#/wp-content/uploads/2023/06/4tgcwev.png"
+                                            src="https://imma.peerduck.com/wp-content/uploads/2023/06/4tgcwev.png"
                                             alt="4tgcwev"
                                           />
                                         </figure>
@@ -9309,7 +9137,7 @@
                                           <img
                                             decoding="async"
                                             class="swiper-slide-image"
-                                            src="#/wp-content/uploads/2023/06/ervvt.png"
+                                            src="https://imma.peerduck.com/wp-content/uploads/2023/06/ervvt.png"
                                             alt="ervvt"
                                           />
                                         </figure>
@@ -9324,7 +9152,7 @@
                                           <img
                                             decoding="async"
                                             class="swiper-slide-image"
-                                            src="#/wp-content/uploads/2023/06/brgb.png"
+                                            src="https://imma.peerduck.com/wp-content/uploads/2023/06/brgb.png"
                                             alt="brgb"
                                           />
                                         </figure>
@@ -9339,7 +9167,7 @@
                                           <img
                                             decoding="async"
                                             class="swiper-slide-image"
-                                            src="#/wp-content/uploads/2023/06/v4t.png"
+                                            src="https://imma.peerduck.com/wp-content/uploads/2023/06/v4t.png"
                                             alt="v4t"
                                           />
                                         </figure>
@@ -9354,7 +9182,7 @@
                                           <img
                                             decoding="async"
                                             class="swiper-slide-image"
-                                            src="#/wp-content/uploads/2023/06/4tg4.png"
+                                            src="https://imma.peerduck.com/wp-content/uploads/2023/06/4tg4.png"
                                             alt="4tg4"
                                           />
                                         </figure>
@@ -9369,7 +9197,7 @@
                                           <img
                                             decoding="async"
                                             class="swiper-slide-image"
-                                            src="#/wp-content/uploads/2023/06/24g.png"
+                                            src="https://imma.peerduck.com/wp-content/uploads/2023/06/24g.png"
                                             alt="24g"
                                           />
                                         </figure>
@@ -9488,13 +9316,13 @@
                                             decoding="async"
                                             width="256"
                                             height="256"
-                                            src="#/wp-content/uploads/2023/06/graduating-student.png"
+                                            src="https://imma.peerduck.com/wp-content/uploads/2023/06/graduating-student.png"
                                             class="attachment-large size-large wp-image-28906"
                                             alt=""
                                             srcset="
-                                              #/wp-content/uploads/2023/06/graduating-student.png         256w,
-                                              #/wp-content/uploads/2023/06/graduating-student-150x150.png 150w,
-                                              #/wp-content/uploads/2023/06/graduating-student-100x100.png 100w
+                                              https://imma.peerduck.com/wp-content/uploads/2023/06/graduating-student.png         256w,
+                                              https://imma.peerduck.com/wp-content/uploads/2023/06/graduating-student-150x150.png 150w,
+                                              https://imma.peerduck.com/wp-content/uploads/2023/06/graduating-student-100x100.png 100w
                                             "
                                             sizes="(max-width: 256px) 100vw, 256px"
                                           />
@@ -9572,13 +9400,13 @@
                                             decoding="async"
                                             width="256"
                                             height="256"
-                                            src="#/wp-content/uploads/2023/06/identity-card.png"
+                                            src="https://imma.peerduck.com/wp-content/uploads/2023/06/identity-card.png"
                                             class="attachment-large size-large wp-image-28909"
                                             alt=""
                                             srcset="
-                                              #/wp-content/uploads/2023/06/identity-card.png         256w,
-                                              #/wp-content/uploads/2023/06/identity-card-150x150.png 150w,
-                                              #/wp-content/uploads/2023/06/identity-card-100x100.png 100w
+                                              https://imma.peerduck.com/wp-content/uploads/2023/06/identity-card.png         256w,
+                                              https://imma.peerduck.com/wp-content/uploads/2023/06/identity-card-150x150.png 150w,
+                                              https://imma.peerduck.com/wp-content/uploads/2023/06/identity-card-100x100.png 100w
                                             "
                                             sizes="(max-width: 256px) 100vw, 256px"
                                           />
@@ -9666,13 +9494,13 @@
                                             decoding="async"
                                             width="256"
                                             height="256"
-                                            src="#/wp-content/uploads/2023/06/travel.png"
+                                            src="https://imma.peerduck.com/wp-content/uploads/2023/06/travel.png"
                                             class="attachment-large size-large wp-image-28907"
                                             alt=""
                                             srcset="
-                                              #/wp-content/uploads/2023/06/travel.png         256w,
-                                              #/wp-content/uploads/2023/06/travel-150x150.png 150w,
-                                              #/wp-content/uploads/2023/06/travel-100x100.png 100w
+                                              https://imma.peerduck.com/wp-content/uploads/2023/06/travel.png         256w,
+                                              https://imma.peerduck.com/wp-content/uploads/2023/06/travel-150x150.png 150w,
+                                              https://imma.peerduck.com/wp-content/uploads/2023/06/travel-100x100.png 100w
                                             "
                                             sizes="(max-width: 256px) 100vw, 256px"
                                           />
@@ -9750,13 +9578,13 @@
                                             decoding="async"
                                             width="256"
                                             height="256"
-                                            src="#/wp-content/uploads/2023/06/passport.png"
+                                            src="https://imma.peerduck.com/wp-content/uploads/2023/06/passport.png"
                                             class="attachment-large size-large wp-image-28908"
                                             alt=""
                                             srcset="
-                                              #/wp-content/uploads/2023/06/passport.png         256w,
-                                              #/wp-content/uploads/2023/06/passport-150x150.png 150w,
-                                              #/wp-content/uploads/2023/06/passport-100x100.png 100w
+                                              https://imma.peerduck.com/wp-content/uploads/2023/06/passport.png         256w,
+                                              https://imma.peerduck.com/wp-content/uploads/2023/06/passport-150x150.png 150w,
+                                              https://imma.peerduck.com/wp-content/uploads/2023/06/passport-100x100.png 100w
                                             "
                                             sizes="(max-width: 256px) 100vw, 256px"
                                           />
@@ -9839,16 +9667,16 @@
                                     decoding="async"
                                     width="719"
                                     height="1024"
-                                    src="#/wp-content/uploads/2023/06/4tg4tvt-719x1024.png"
+                                    src="https://imma.peerduck.com/wp-content/uploads/2023/06/4tg4tvt-719x1024.png"
                                     class="attachment-large size-large wp-image-28905"
                                     alt=""
                                     srcset="
-                                      #/wp-content/uploads/2023/06/4tg4tvt-719x1024.png   719w,
-                                      #/wp-content/uploads/2023/06/4tg4tvt-211x300.png    211w,
-                                      #/wp-content/uploads/2023/06/4tg4tvt-768x1093.png   768w,
-                                      #/wp-content/uploads/2023/06/4tg4tvt-1079x1536.png 1079w,
-                                      #/wp-content/uploads/2023/06/4tg4tvt-600x854.png    600w,
-                                      #/wp-content/uploads/2023/06/4tg4tvt.png           1200w
+                                      https://imma.peerduck.com/wp-content/uploads/2023/06/4tg4tvt-719x1024.png   719w,
+                                      https://imma.peerduck.com/wp-content/uploads/2023/06/4tg4tvt-211x300.png    211w,
+                                      https://imma.peerduck.com/wp-content/uploads/2023/06/4tg4tvt-768x1093.png   768w,
+                                      https://imma.peerduck.com/wp-content/uploads/2023/06/4tg4tvt-1079x1536.png 1079w,
+                                      https://imma.peerduck.com/wp-content/uploads/2023/06/4tg4tvt-600x854.png    600w,
+                                      https://imma.peerduck.com/wp-content/uploads/2023/06/4tg4tvt.png           1200w
                                     "
                                     sizes="(max-width: 719px) 100vw, 719px"
                                   />
@@ -9908,15 +9736,15 @@
                                     decoding="async"
                                     width="927"
                                     height="1024"
-                                    src="#/wp-content/uploads/2023/06/4tg4b-927x1024.png"
+                                    src="https://imma.peerduck.com/wp-content/uploads/2023/06/4tg4b-927x1024.png"
                                     class="attachment-large size-large wp-image-28896"
                                     alt=""
                                     srcset="
-                                      #/wp-content/uploads/2023/06/4tg4b-927x1024.png  927w,
-                                      #/wp-content/uploads/2023/06/4tg4b-271x300.png   271w,
-                                      #/wp-content/uploads/2023/06/4tg4b-768x849.png   768w,
-                                      #/wp-content/uploads/2023/06/4tg4b-600x663.png   600w,
-                                      #/wp-content/uploads/2023/06/4tg4b.png          1000w
+                                      https://imma.peerduck.com/wp-content/uploads/2023/06/4tg4b-927x1024.png  927w,
+                                      https://imma.peerduck.com/wp-content/uploads/2023/06/4tg4b-271x300.png   271w,
+                                      https://imma.peerduck.com/wp-content/uploads/2023/06/4tg4b-768x849.png   768w,
+                                      https://imma.peerduck.com/wp-content/uploads/2023/06/4tg4b-600x663.png   600w,
+                                      https://imma.peerduck.com/wp-content/uploads/2023/06/4tg4b.png          1000w
                                     "
                                     sizes="(max-width: 927px) 100vw, 927px"
                                   />
@@ -10159,7 +9987,7 @@
     <link
       rel="stylesheet"
       id="e-animations-css"
-      href="#/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.18.3"
+      href="animation.css"
       media="all"
     />
     <script id="pa-frontend-js-extra">
@@ -10169,11 +9997,11 @@
       };
     </script>
     <script
-      src="#/wp-content/uploads/premium-addons-elementor/pa-frontend-a375f3c49.min.js?ver=1706614329"
+      src="https://imma.peerduck.com/wp-content/uploads/premium-addons-elementor/pa-frontend-a375f3c49.min.js?ver=1706614329"
       id="pa-frontend-js"
     ></script>
     <script
-      src="#/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.8.5"
+      src="https://imma.peerduck.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.8.5"
       id="swv-js"
     ></script>
     <script id="contact-form-7-js-extra">
@@ -10186,7 +10014,7 @@
       };
     </script>
     <script
-      src="#/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.8.5"
+      src="https://imma.peerduck.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.8.5"
       id="contact-form-7-js"
     ></script>
     <script id="eael-general-js-extra">
@@ -10251,35 +10079,35 @@
       };
     </script>
     <script
-      src="#/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/general.min.js?ver=5.9.3"
+      src="https://imma.peerduck.com/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/general.min.js?ver=5.9.3"
       id="eael-general-js"
     ></script>
     <script
-      src="#/wp-content/plugins/premium-addons-for-elementor/assets/frontend/min-js/premium-wrapper-link.min.js?ver=4.10.16"
+      src="https://imma.peerduck.com/wp-content/plugins/premium-addons-for-elementor/assets/frontend/min-js/premium-wrapper-link.min.js?ver=4.10.16"
       id="pa-wrapper-link-js"
     ></script>
     <script
-      src="#/wp-content/plugins/premium-addons-for-elementor/assets/frontend/min-js/universal-tilt.min.js?ver=4.10.16"
+      src="https://imma.peerduck.com/wp-content/plugins/premium-addons-for-elementor/assets/frontend/min-js/universal-tilt.min.js?ver=4.10.16"
       id="pa-tilt-js"
     ></script>
     <script
-      src="#/wp-content/plugins/elementor/assets/lib/jquery-numerator/jquery-numerator.min.js?ver=0.2.1"
+      src="https://imma.peerduck.com/wp-content/plugins/elementor/assets/lib/jquery-numerator/jquery-numerator.min.js?ver=0.2.1"
       id="jquery-numerator-js"
     ></script>
     <script
-      src="#/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.18.3"
+      src="https://imma.peerduck.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.18.3"
       id="elementor-webpack-runtime-js"
     ></script>
     <script
-      src="#/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.18.3"
+      src="https://imma.peerduck.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.18.3"
       id="elementor-frontend-modules-js"
     ></script>
     <script
-      src="#/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2"
+      src="https://imma.peerduck.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2"
       id="elementor-waypoints-js"
     ></script>
     <script
-      src="#/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2"
+      src="https://imma.peerduck.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2"
       id="jquery-ui-core-js"
     ></script>
     <script id="elementor-frontend-js-before">
@@ -10396,7 +10224,7 @@
       };
     </script>
     <script
-      src="#/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.18.3"
+      src="https://imma.peerduck.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.18.3"
       id="elementor-frontend-js"
     ></script>
   </body>
